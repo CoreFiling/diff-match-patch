@@ -12,5 +12,5 @@ dotnet build /property:Version=$VERSION$VERSION_SUFFIX /property:AssemblyVersion
 ```sh
 export SOURCE="https://nuget.server/"
 export KEY="NUGET_API_KEY"
-dotnet nuget push ./bin/Release/DiffMatchPatch.$VERSION$VERSION_SUFFIX.nupkg --source $SOURCE --api-key $KEY
+dotnet nuget push ./bin/Release/CoreFiling.DiffMatchPatch.$VERSION$VERSION_SUFFIX.nupkg --source $SOURCE --api-key $KEY
 ```

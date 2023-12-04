@@ -1,13 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>CoreFiling.DiffMatchPatch</PackageId>
     <Version>0.0.0-local</Version>
+    <Authors>njlgad</Authors>
+    <Company>CoreFiling</Company>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <LangVersion>default</LangVersion>
+    <RepositoryUrl>https://github.com/CoreFiling/diff-match-patch</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
